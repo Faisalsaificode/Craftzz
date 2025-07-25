@@ -120,17 +120,25 @@ nav {
   padding: 1rem;
 }
 
-.crazy_deals_scroll{
+.crazy_deals_scroll {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1rem;
 }
 
 .deals_cards{
+  display: flex;
+
+  align-items: center;
   position: relative;
   height: 200px;
   width: 200px;
   overflow: hidden;
   border-radius: 1rem;
   transition: 0.3s ease;
+  
 }
 
 .deals_cards img{
